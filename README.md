@@ -48,9 +48,16 @@ $ pip list
 $ sudo apt-get install git
 ```
 
+**pyenvに必要なライブラリをインストール**
+
+```
+$ sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils
+```
+
 **gitからpyenvをクローン**
 
-shellscriptにまとめました**install-pyenv.sh**
+shellscriptにまとめたたやつ**install-pyenv.sh**
+
 install-pyenv.sh実行方法
 ```
 $ bash install-pyenv.sh
