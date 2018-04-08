@@ -1,5 +1,7 @@
 # 環境構築方法
 
+頻繁に環境構築するので備忘録
+
 ### 前提としてる環境
 
 |||
@@ -19,7 +21,7 @@
 |Keras|2.1.5|
 |git||
 
-## pipのインストール
+## 1.pipのインストール
 
 ```
 $ sudo apt-get update
@@ -38,21 +40,21 @@ $ pip install --upgrade pip
 $ pip list
 ```
 
-## pyenvのインストール
+## 2.pyenvのインストール
 
-### gitのインストール
+**gitのインストール**
 
 ```
 $ sudo apt-get install git
 ```
 
-### gitからpyenvをクローン
+**gitからpyenvをクローン**
 
 ```
 $ git clone https://github.com/yyuu/pyenv.git ~/.pyenv
 ```
 
-### bashrcを反映
+**bashrcを反映**
 
 ```
 $ echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.$ bash_profile
@@ -61,31 +63,31 @@ $ echo 'eval "$(pyenv init -)"' >> ~/.bash_profile
 $ exec $SHELL
 ```
 
-## python3をインストール
+## 3.python3をインストール
 
 ```
 $ pyenv install 3.5.3
 ```
 
-## デフォルトで動くpythonのバージョンを3.5にする
+**デフォルトで動くpythonのバージョンを3.5にする**
 
 ```
 $ pyenv global 3.5.3
 ```
 
-## Opencvのインストール
+## 4.Opencvのインストール
 
 ```
 $ pip install opencv-python
 ```
 
-## tensorflowのインストール
+## 5.tensorflowのインストール
 
 ```
 $ pip install tensorflow
 ```
 
-## Kerasのインストール
+## 6.Kerasのインストール
 
 ```
 $ pip install keras
