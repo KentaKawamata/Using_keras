@@ -21,6 +21,9 @@
 |Keras|2.1.5|
 |git||
 
+tensorflowはGoogleが提供する深層学習のライブラリ.
+Kerasを使うと深層学習の関数が綺麗にまとまり扱いやすい.裏でtensorflowが動く.
+
 ## 1.pipのインストール
 
 ```
