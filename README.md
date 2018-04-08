@@ -61,6 +61,32 @@ $ echo 'eval "$(pyenv init -)"' >> ~/.bash_profile
 $ exec $SHELL
 ```
 
+## python3をインストール
 
+```
+$ pyenv install 3.5.3
+```
 
+## デフォルトで動くpythonのバージョンを3.5にする
 
+```
+$ pyenv global 3.5.3
+```
+
+## Opencvのインストール
+
+```
+$ pip install opencv-python
+```
+
+## tensorflowのインストール
+
+```
+$ pip install tensorflow
+```
+
+## Kerasのインストール
+
+```
+$ pip install keras
+```
