@@ -50,6 +50,12 @@ $ sudo apt-get install git
 
 **gitからpyenvをクローン**
 
+shellscriptにまとめました**install-pyenv.sh**
+install-pyenv.sh実行方法
+```
+$ bash install-pyenv.sh
+```
+
 ```
 $ git clone https://github.com/yyuu/pyenv.git ~/.pyenv
 ```
