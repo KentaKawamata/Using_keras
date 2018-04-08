@@ -59,12 +59,6 @@ $ sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev 
 
 **gitからpyenvをクローン**
 
-shellscriptにまとめたたやつ**install-pyenv.sh**
-
-install-pyenv.sh実行方法
-```
-$ bash install-pyenv.sh
-```
 
 ```
 $ git clone https://github.com/yyuu/pyenv.git ~/.pyenv
