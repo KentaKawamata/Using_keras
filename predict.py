@@ -31,6 +31,12 @@ def predict():
 
 if __name__ == "__main__":
 
+  #ここにOPEN CVいれる
+
+
+
+
+
   image_path ='trimming.png'
   img = load_img(image_path, grayscale = True, target_size=(28,28))
   x=img_to_array(img)
