@@ -102,3 +102,11 @@ $ pip install tensorflow
 ```
 $ pip install keras
 ```
+
+## 7.新たにインストールが必要だったもの
+
+```
+$ sudo apt-get install -y libhdf5-dev
+$ pip install h5py
+$ pip install pillow
+```
